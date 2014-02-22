@@ -1,5 +1,5 @@
 var crel = require('crel'),
-    audioElements = doc('audio'),
+    audioElements = document.getElementsByTagName('audio'),
     sounds = {};
 
 for (var i = 0; i < audioElements.length; i++) {

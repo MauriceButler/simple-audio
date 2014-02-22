@@ -1,0 +1,32 @@
+{
+  "name": "simple-audio",
+  "version": "0.0.0",
+  "description": "Small Module to play audio using HTML audio tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MauriceButler/simple-audio.git"
+  },
+  "keywords": [
+    "simple",
+    "audio",
+    "html5",
+    "play",
+    "sound",
+    "android",
+    "chrome",
+    "sound",
+    "mp3",
+    "wav",
+    "ogg"
+  ],
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/simple-audio/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/simple-audio"
+}

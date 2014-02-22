@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/MauriceButler/simple-audio/issues"
   },
-  "homepage": "https://github.com/MauriceButler/simple-audio"
+  "homepage": "https://github.com/MauriceButler/simple-audio",
+  "dependencies": {
+    "crel": "~1.1.1"
+  }
 }

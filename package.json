@@ -1,6 +1,6 @@
 {
   "name": "simple-audio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Small Module to play audio using HTML audio tag",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,5 @@
     "url": "https://github.com/MauriceButler/simple-audio/issues"
   },
   "homepage": "https://github.com/MauriceButler/simple-audio",
-  "dependencies": {
-    "crel": "~1.1.1"
-  }
+  "dependencies": {}
 }

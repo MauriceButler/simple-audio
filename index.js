@@ -1,5 +1,4 @@
-var crel = require('crel'),
-    audioElements = document.getElementsByTagName('audio'),
+var audioElements = document.getElementsByTagName('audio'),
     sounds = {};
 
 for (var i = 0; i < audioElements.length; i++) {
@@ -17,7 +16,7 @@ if (mediaPlaybackRequiresUserGesture()) {
 
 function mediaPlaybackRequiresUserGesture() {
     // test if play() is ignored when not called from an input event handler
-    var video = crel('video');
+    var video = document.createElement('video');
     video.play();
     return video.paused;
 }

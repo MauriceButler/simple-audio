@@ -7,7 +7,8 @@ Also addresses the Chrome for Andriod issue [178297](https://code.google.com/p/c
 ## Usage
 
 #### HTML
-```
+
+``` html
 <audio class="foo">
     <source src="foo.mp3"></source>
     <source src="foo.wav"></source>
@@ -16,7 +17,8 @@ Also addresses the Chrome for Andriod issue [178297](https://code.google.com/p/c
 ```
 
 #### JavaScript
-```
+
+``` javascript
 var audio = require('simple-audio');
 audio.playSound('foo');
 ```
